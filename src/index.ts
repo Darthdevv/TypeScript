@@ -1,3 +1,2 @@
-const message = "hello!";
-
-console.log('hello world');
+console.log(Date());
+console.log(typeof Date());
