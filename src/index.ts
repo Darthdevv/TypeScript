@@ -17,7 +17,10 @@ const users: Record<UserName, UserInfo> = {
   nahas: { role: "guest", age: 40 },
 }
 
-console.log(users.yousef);
+const userAge: Pick<UserInfo, "age"> = { age: 20 };
+
+console.log(userAge);
+
 
 const obj: Props = { a: 5 };
 
