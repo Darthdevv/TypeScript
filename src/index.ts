@@ -27,3 +27,5 @@ const obj: Props = { a: 5 };
 const obj2: Partial<Props> = { a: 5 };
 
 const obj3: Required<Props> = { a: 5, b: "10" };
+
+console.log('hello world');
