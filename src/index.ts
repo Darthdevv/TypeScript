@@ -22,6 +22,7 @@ const userAge: Pick<UserInfo, "age"> = { age: 20 };
 console.log(userAge);
 
 
+
 const obj: Props = { a: 5 };
 
 const obj2: Partial<Props> = { a: 5 };
